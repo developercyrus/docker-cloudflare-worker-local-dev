@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "wrangler": "^3.61.0"
+  },
+  "scripts": {
+      "start": "wrangler dev --ip 0.0.0.0"
+  }
+}
