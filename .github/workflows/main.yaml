@@ -19,7 +19,7 @@ jobs:
           run_install: true
           version: 9
       - name: build
-        run: pnpm run build-worker
+        run: pnpm run deploy
       - name: Deploy to Cloudflare Workers with Wrangler
         uses: cloudflare/wrangler-action@v3.1.0
         with:
