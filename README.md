@@ -1,8 +1,10 @@
 ### Advantage
-1. no need install in host:
+1. less footprint in host, no need install:
    - node.js for development
-   - wrangler for own deployment
-2. one-click button for other deployment
+   - wrangler for deployment
+2. ease deployment
+   - own deployment: github actions
+   - others' deployment: one-click button (input secrets in web deployment) 
 
 ### Local Testing
 ```bash
