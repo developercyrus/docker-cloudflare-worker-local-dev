@@ -5,7 +5,7 @@ sudo docker build -t developercyrus/cloudflare-worker-local-dev .
 ### Run
 ```bash
 sudo docker run --rm \
-  --expose 8787:8787 \
+  -p 8787:8787 \
   --name worker \
   developercyrus/cloudflare-worker-local-dev
 ```
