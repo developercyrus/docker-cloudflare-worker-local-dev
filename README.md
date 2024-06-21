@@ -1,6 +1,6 @@
 ### Build
 ```bash
-sudo docker build -t developercyrus/cloudflare-worker-local-dev
+sudo docker build -t developercyrus/cloudflare-worker-local-dev . 
 ```
 ### Run
 ```bash
