@@ -7,4 +7,4 @@ COPY . /app
 RUN npm install 
 RUN apt install curl
 
-CMD [ "npm", "dev" ]
+CMD [ "npm", "start" ]
