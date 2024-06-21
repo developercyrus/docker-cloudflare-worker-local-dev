@@ -3,12 +3,10 @@ no need to install in host
 - node.js for development
 - wrangler for development
 
-### Build
+### Local Testing
 ```bash
 sudo docker build -t developercyrus/cloudflare-worker-local-dev . 
-```
-### Run
-```bash
+
 sudo docker run --rm \
   -p 8787:8787 \
   --name worker \
