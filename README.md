@@ -15,7 +15,7 @@ sudo docker run --rm \
 ```
 
 ### Deployment
-1. own deplogyment: github project > Settings > Secrets and variables > Actions > Secrets > New repository secret
+1. own deployment: github project > Settings > Secrets and variables > Actions > Secrets > New repository secret
    - CLOUDFLARE_ACCOUNT_ID
    - CLOUDFLARE_API_TOKEN
 2. other deployment<br>
