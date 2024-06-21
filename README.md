@@ -1,7 +1,8 @@
 ### Advantage
-no need install in host:
-- node.js for development
-- wrangler for development
+1. no need install in host:
+   - node.js for development
+   - wrangler for own deployment
+2. one-click button for other deployment
 
 ### Local Testing
 ```bash
@@ -14,8 +15,8 @@ sudo docker run --rm \
 ```
 
 ### Deployment
-1. github project > Settings > Secrets and variables > Actions > Secrets > New repository secret
+1. own deplogyment: github project > Settings > Secrets and variables > Actions > Secrets > New repository secret
    - CLOUDFLARE_ACCOUNT_ID
    - CLOUDFLARE_API_TOKEN
-2. one-click button<br>
+2. other deployment<br>
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/developercyrus/docker-cloudflare-worker-local-dev)
