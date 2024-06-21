@@ -3,6 +3,7 @@
     "wrangler": "^3.61.0"
   },
   "scripts": {
-      "start": "wrangler dev --ip 0.0.0.0"
+      "deploy": "wrangler deploy",
+      "dev": "wrangler dev --ip 0.0.0.0"
   }
 }
