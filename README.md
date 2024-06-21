@@ -17,8 +17,7 @@ sudo docker run --rm \
 
 ### Deployment
 1. github project > Settings > Secrets and variables > Actions > Secrets > New repository secret
-- CLOUDFLARE_ACCOUNT_ID
-- CLOUDFLARE_API_TOKEN
-
+  - CLOUDFLARE_ACCOUNT_ID
+  - CLOUDFLARE_API_TOKEN
 2. one-click button<br>
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/developercyrus/docker-cloudflare-worker-local-dev)
